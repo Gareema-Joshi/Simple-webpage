@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Activity4</title>
+    <style>
+        body{
+            background-color: #f2f2f2;
+        }
+        nav.navbar{ 
+            background-color: black;
+            overflow: hidden;
+           }
+        nav.navbar ul
+        {
+           display: flex;
+           justify-content: center;
+           list-style-type: none;
+        }
+        nav.navbar li{
+            padding: 15px;
+            float: left;
+        }
+        nav.navbar a{
+            text-decoration: none;
+            color: white;
+        }
+        nav.navbar h1{
+            color: white;
+            text-align: center;
+            word-spacing: 5px;
+            font-size: 30px;
+        }
+        .bottom{
+            background-color: black;
+            color: white;
+            position: fixed;
+            text-align: center;
+            bottom: 0;
+            width: 100%;
+        }
+        div.content{
+            background-color: white;
+            padding:10px;
+        }
+        h1{
+            padding: 10px;
+        }
+        p{
+            padding: 10px;
+        }
+        a{
+            padding: 10px;
+            color: #000;
+
+        }
+        .card{
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <h1>Welcome to My Webpage</h1>
+       <ul>
+            <li><a class="active" href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+       </ul>
+    </nav>
+    <div class="card">
+    <div class="content">
+       <h1>About This Page</h1>
+       <p>This is a simple webpage to demonstrate styling and linking</p>
+       <a href="#">Visit.Example.com</a>
+    </div>
+    </div>
+    <div class="bottom">
+      <p>&copy 2024 My Webpage</p>
+    </div>
+</body>
+</html>
